@@ -15,7 +15,9 @@ import { GoalDetailComponent } from './goal-detail/goal-detail.component';
 import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { GoalFormComponent } from './goal-form/goal-form.component';
-import { GoalService } from "../app/goal-service/goal.service"
+import { GoalService } from "../app/goal-service/goal.service";
+import { AboutComponent } from './about/about.component';
+import { NavbarComponent } from './navbar/navbar.component'
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { GoalService } from "../app/goal-service/goal.service"
     StrikethroughDirective,
     DateCountPipe,
     GoalFormComponent,
+    AboutComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
